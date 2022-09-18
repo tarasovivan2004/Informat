@@ -1,8 +1,8 @@
-#include   "modAlphacrip.h"
+#include   "modAlphakek.h"
 
 using namespace std;
 
-std::wstring modAlphacrip::encrypt(const std::wstring& open_text) // шифрование
+std::wstring modAlphakek::encrypt(const std::wstring& open_text) // шифрование
 {
  wstring tabl = open_text;
     int dl, nstrok, index, x;
@@ -21,7 +21,7 @@ std::wstring modAlphacrip::encrypt(const std::wstring& open_text) // шифро�
     return tabl;
 }
 
-std::wstring modAlphacrip::decrypt(const std::wstring& cipher_text) // расшифрование
+std::wstring modAlphakek::decrypt(const std::wstring& cipher_text) // расшифрование
 {
  wstring tabl = cipher_text;
     int dl, nstrok, index, x;
