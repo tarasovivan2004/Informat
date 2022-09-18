@@ -1,4 +1,4 @@
-#include    "modAlphacrip.h"
+#include    "modAlphakek.h"
 using namespace std;
 bool (const wstring& s)
 {
@@ -22,7 +22,7 @@ int main()
         0 0;
     }
 
- modAlphacrip cipher(key);
+ modAlphakek cipher(key);
     do {
  wcout<<L"Cipher ready. Input operation (0-exit, 1-encrypt, 2-decrypt):  ";
  wcin>>op;
