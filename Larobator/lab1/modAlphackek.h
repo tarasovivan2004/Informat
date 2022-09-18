@@ -6,13 +6,13 @@
 #include <cctype>
 #include <locale>
 #include <codecvt>
-class modAlphacrip
+class modAlphakek
 {
 private:
     int key1; // кол-во столбцов
 public:
-    modAlphacrip()=delete; // запрет конструктора без параметров
-    modAlphacrip(const int& key) :key1(key) {};
+    modAlphakek()=delete; // запрет конструктора без параметров
+    modAlphakek(const int& key) :key1(key) {};
  std::wstring encrypt(const std::wstring& open_text); // зашифрование
  std::wstring decrypt(const std::wstring& cipher_text); // расшифрование
 };
